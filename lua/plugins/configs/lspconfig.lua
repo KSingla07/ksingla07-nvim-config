@@ -97,4 +97,9 @@ lspconfig.bashls.setup {}
 lspconfig.nginx_language_server.setup {}
 lspconfig.jsonls.setup {}
 lspconfig.docker_compose_language_service.setup {}
+lspconfig.jdtls.setup {}
+lspconfig.bufls.setup {
+  single_file_support = true,
+}
+lspconfig.tsserver.setup {}
 return M

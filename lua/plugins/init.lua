@@ -172,8 +172,16 @@ local default_plugins = {
           -- Lua
           "stylua",
 
+          -- Java
+          "java-debug-adapter",
+          "java-test",
+          "google-java-format",
+
           -- Nginx LSP
           "nginx-language-server",
+
+          -- Protocol Buffers
+          "protolint",
         },
       }
       require("null-ls").setup(require "plugins.configs.null-ls")
@@ -198,6 +206,9 @@ local default_plugins = {
           "bashls",
           "yamlls",
           "jsonls",
+          "jdtls",
+          "bufls",
+          "tsserver",
         },
       }
       require "plugins.configs.lspconfig"

@@ -12,6 +12,14 @@ local options = {
     "xml",
     "bash",
     "csv",
+    "java",
+    "proto",
+    "html",
+    "css",
+    "typescript",
+    "tsx",
+    "javascript",
+    "json",
   },
 
   highlight = {
